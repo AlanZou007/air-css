@@ -12,8 +12,8 @@ gulp.task('compile', () => {
         .pipe(gulp.dest('./lib'))
 })
 
-// gulp.task('lib', ['compile'], () => {
-//     fs.copySync('./lib', './es/air-css')
-// })
+gulp.task('lib', ['compile'], () => {
+    fs.copySync('./lib', './es/air-css')
+})
 
-gulp.task('build', ['compile'])
+gulp.task('build', ['lib'])

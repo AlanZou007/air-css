@@ -14,22 +14,22 @@ air 中默认包含一些常用的样式， 可以直接通过className的方式
 
 ```html
 <!-- 上边框 -->
-<div class="van-hairline--top"></div>
+<div class="air-hairline--top"></div>
 
 <!-- 下边框 -->
-<div class="van-hairline--bottom"></div>
+<div class="air-hairline--bottom"></div>
 
 <!-- 左边框 -->
-<div class="van-hairline--left"></div>
+<div class="air-hairline--left"></div>
 
 <!-- 右边框 -->
-<div class="van-hairline--right"></div>
+<div class="air-hairline--right"></div>
 
 <!-- 上下边框 -->
-<div class="van-hairline--top-bottom"></div>
+<div class="air-hairline--top-bottom"></div>
 
 <!-- 全边框 -->
-<div class="van-hairline--surround"></div>
+<div class="air-hairline--surround"></div>
 ```
 
 ### 动画
