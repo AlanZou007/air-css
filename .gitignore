@@ -1,0 +1,12 @@
+*.log*
+.cache
+.DS_Store
+.idea
+.vscode
+es
+lib
+node_modules
+docs/dist
+test/coverage
+packages/air-css/build
+packages/icon/svg
