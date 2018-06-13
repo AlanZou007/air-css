@@ -1,0 +1,5 @@
+@import '../mixins/clearfix.css';
+
+.air-clearfix {
+    @mixin clearfix
+}

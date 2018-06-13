@@ -7,9 +7,9 @@ gulp.task('compile', () => {
     fs.emptyDirSync('./lib');
     return gulp
         .src('./src/*.css')
-        .src(postcss())
-        .src(cssmin())
-        .src(gulp.dest('./lib'))
+        .pipe(postcss())
+        .pipe(cssmin())
+        .pipe(gulp.dest('./lib'))
 })
 
 gulp.task('lib', ['compile'], () => {
