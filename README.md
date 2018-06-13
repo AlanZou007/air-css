@@ -14,33 +14,33 @@ When the text content exceeds the maximum width of the container, the extra text
 Add a 1px border (hairline) under the Retina screen to the element, based on the pseudo-class transform.
 
 ```html
-<!-- 上边框 -->
+<!-- top -->
 <div class="air-hairline--top"></div>
 
-<!-- 下边框 -->
+<!-- bottom -->
 <div class="air-hairline--bottom"></div>
 
-<!-- 左边框 -->
+<!-- left -->
 <div class="air-hairline--left"></div>
 
-<!-- 右边框 -->
+<!-- right -->
 <div class="air-hairline--right"></div>
 
-<!-- 上下边框 -->
+<!-- top and bottom -->
 <div class="air-hairline--top-bottom"></div>
 
-<!-- 全边框 -->
+<!-- surround -->
 <div class="air-hairline--surround"></div>
 ```
 
 ### animation
 ```html
-<!-- 淡入 -->
+<!-- fade -->
 <transition name="air-fade">
   <div v-show="visible">Fade</div>
 </transition>
 
-<!-- 下滑 -->
+<!-- slide-botom -->
 <transition name="air-slide-bottom">
   <div v-show="visible">Fade</div>
 </transition>
