@@ -5,9 +5,9 @@
 air-css includes some commonly used styles by default, and can be used directly with className.
 
 ### Ellipsis Text
-When the text content exceeds the maximum width of the container, the extra text is automatically ellipsis.
+When the text content exceeds the maximum width of the container, the extra text is automatically omitted.
 ```html
-<div class='air-ellipsis>这个一段宽度限制250px的文字， 后台的内容会省略</div>
+<div class='air-ellipsis>This paragraph is limited to 250px text, the background content will be omitted</div>
 ```
 
 ### 1px border
